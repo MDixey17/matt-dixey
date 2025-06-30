@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://mdixey17.github.io/matt-dixey",
+  "homepage": "https://mdixey17.github.io/matt-dixey/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
