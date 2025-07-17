@@ -83,9 +83,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-border-primary mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-text-tertiary text-sm">
-            © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
-          </p>
+          <p className="text-text-tertiary text-sm"></p>
           <div className="flex items-center space-x-2 text-text-tertiary text-sm mt-4 md:mt-0">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-400" />

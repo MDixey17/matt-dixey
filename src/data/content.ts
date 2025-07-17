@@ -77,6 +77,7 @@ export const skills: Skill[] = [
   { name: "Jest", level: 90, category: "frameworks" },
   { name: "Cypress", level: 90, category: "frameworks" },
   { name: "Playwright", level: 90, category: "frameworks" },
+  { name: 'Puppeteer', level: 90, category: "frameworks" },
   { name: "Kafka", level: 85, category: "frameworks" },
   { name: "React Native", level: 75, category: "frameworks" },
   { name: "Expo", level: 75, category: "frameworks" },
@@ -108,15 +109,18 @@ export const experiences: Experience[] = [
     location: "Brooklyn Park, MN",
     description: "Contributing to ad-tech marketing solutions that drive consistent growth across the enterprise",
     achievements: [
-      "Advanced the internal component library by suggesting, researching, and implementing new functionality for the type-ahead component utilized by over 1,000 teams while ensuring accessibility for visually impaired users",
-      "Solely responsible for the design and implementation of a tool to empower engineers with real-time visibility into marketing campaign audience creation and delivery, improving on-call response times and operational efficiency",
-      "Spearheaded security checks for the internal audience segmentation tool by identifying and resolving about 200 critical vulnerabilities per quarter found in imported dependencies.",
-      "Assumed full ownership of all frontend development responsibilities for a third of a multi-team application, delivering continuous enhancements independently while collaborating with cross-functional stakeholders",
-        "Selected to guide new hires in understanding engineer expectations, utilizing approved technologies, navigating internal resources, and fostering a growth mindset",
-        "Led the development and delivered a functional prototype of an AI-powered chatbot to enhance marketing audience creation by automating segment creation for guests that have purchased products from specified brands",
-        "Initiated discovery and successful implementation of direct API integrations with major platforms such as Meta, TikTok, and Pinterest, streamlining audience segment data flows as part of a portfolio wide effort to optimize user experiences",
-        "Pioneered a Slack application to improve productivity for over 4,000 employees using Golang and PostgreSQL, becoming recognized across the enterprise and frequently consulted by engineers for guidance on implementation",
-        "Extended Spring Boot microservices and Kafka consumers to automate the creation and delivery of audience segments across marketing platforms, contributing to consistently generating over $2 billion in annual revenue"
+      "Advanced the internal React component library to support Enter key selection for type-ahead inputs, now utilized by over 1,000 teams across the enterprise, showcasing scalable frontend development",
+      "Designed and implemented an internal React web application to empower engineers with real-time visibility into marketing campaign audience creation and delivery, improving on-call response times and operational efficiency",
+        "Authored documentation comparing frontend testing libraries, such as Cypress and Playwright, enabling enterprise teams to make informed decisions about their integration testing strategies",
+        "Partnered with senior engineers to ship a time-sensitive enhancement with audience distribution to social media platforms within two weeks, resulting in $15 million in cost savings",
+        "Pioneered a Slack bot application to improve productivity for over 4,000 employees using Golang and PostgreSQL, becoming recognized across the enterprise and frequently consulted by engineers for guidance on implementation",
+        "Actively contribute to Spring Boot microservices and Kafka consumers that support the automation of creation of audience segments for the marketing portfolio, generating over $2 billion in annual revenue",
+        "Optimized existing CI/CD pipelines to create and modify Kubernetes clusters to comply with internal infrastructure guidelines and cost-effectiveness, sharing the configurations across teams to easily replicate",
+        "Spearheaded quarterly security reviews for the internal audience creation tool, resolving over 200 high severity vulnerabilities per cycle and contributing to cross-team dependency upgrade initiatives",
+        "Selected  to provide hands-on onboarding and mentorship to new hires, supporting their growth in engineering skills, company culture, and technology usage",
+        "Led the development of a Generative AI assistant for marketing workflows by reducing creation time by 40% for audience segments of guests that have purchased products from specified brands, gaining praise from leadership for setting an example for the enterprise",
+        "Initiated discovery and successful implementation of direct API integrations with major platforms such as Meta, TikTok, and Pinterest, streamlining audience segment data flows as part of a $500 million enterprise initiative",
+        "Sole owner of all frontend work for my team, regularly consulted for new features, urgent fixes, and collaborating with cross-functional stakeholders, being recognized as the frontend authority on the team"
     ],
     tags: ["React", "Node.js", "TypeScript", "Docker", "MongoDB", "PostgreSQL", "Java", "Spring Boot"]
   },
@@ -160,7 +164,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/MDixey17/formula-cardz-ui",
     liveUrl: "https://formulacardz.com/",
     featured: true,
-    status: "in-progress"
+    status: "completed"
   },
   {
     id: "gravity-blade",

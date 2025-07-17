@@ -43,16 +43,16 @@ const Contact: React.FC = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 py-20">
+      <section className="bg-gradient-to-br from-primary-50 via-background-primary to-background-secondary dark:from-primary-900/20 dark:via-background-primary dark:to-background-secondary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl font-bold text-dark-900 mb-6">
+            <h1 className="text-5xl font-bold text-text-primary mb-6">
               Let's
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-600 ml-4">
                 Connect
               </span>
             </h1>
-            <p className="text-xl text-dark-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
               I'm always open to discussing new opportunities, interesting projects, 
               or just having a chat about technology and innovation.
             </p>
@@ -243,12 +243,12 @@ const Contact: React.FC = () => {
       </section>
 
       {/* Quick Stats */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-3xl p-8 lg:p-12">
+          <div className="bg-gradient-to-br from-primary-50 via-background-primary to-background-secondary dark:from-primary-900/20 dark:via-background-primary dark:to-background-secondary rounded-3xl p-8 lg:p-12">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-dark-900 mb-4">Why Work With Me?</h2>
-              <p className="text-xl text-dark-600 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold text-text-primary mb-4">Why Work With Me?</h2>
+              <p className="text-xl text-text-secondary max-w-3xl mx-auto">
                 Here's what I bring to every project and collaboration
               </p>
             </div>
@@ -258,24 +258,24 @@ const Contact: React.FC = () => {
                 <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl font-bold">3+</span>
                 </div>
-                <h3 className="text-xl font-bold text-dark-900 mb-2">Years Experience</h3>
-                <p className="text-dark-600">Professional software development experience</p>
+                <h3 className="text-xl font-bold text-text-primary mb-2">Years Experience</h3>
+                <p className="text-text-secondary">Professional software development experience</p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl font-bold">∞</span>
                 </div>
-                <h3 className="text-xl font-bold text-dark-900 mb-2">Continuous Learning</h3>
-                <p className="text-dark-600">Always staying up-to-date with the latest technologies</p>
+                <h3 className="text-xl font-bold text-text-primary mb-2">Continuous Learning</h3>
+                <p className="text-text-secondary">Always staying up-to-date with the latest technologies</p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl font-bold">✓</span>
                 </div>
-                <h3 className="text-xl font-bold text-dark-900 mb-2">Quality Focused</h3>
-                <p className="text-dark-600">Committed to delivering exceptional results</p>
+                <h3 className="text-xl font-bold text-text-primary mb-2">Quality Focused</h3>
+                <p className="text-text-secondary">Committed to delivering exceptional results</p>
               </div>
             </div>
           </div>
