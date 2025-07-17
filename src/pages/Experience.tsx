@@ -11,17 +11,17 @@ const Experience: React.FC = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 py-20">
+      <section className="bg-gradient-to-br from-primary-50 via-background-primary to-background-secondary dark:from-primary-900/20 dark:via-background-primary dark:to-background-secondary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl font-bold text-dark-900 mb-6">
+            <h1 className="text-5xl font-bold text-text-primary mb-6">
               Professional
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-600 ml-4">
                 Experience
               </span>
             </h1>
-            <p className="text-xl text-dark-600 max-w-3xl mx-auto leading-relaxed">
-              My journey as a software engineer, from junior developer to senior engineer, 
+            <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+              My journey as a software engineer, from intern to mid-level engineer,
               building scalable applications and leading technical initiatives.
             </p>
           </div>
@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
       </section>
 
       {/* Experience Timeline */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-12">
             {experiences.map((experience, index) => (
@@ -69,19 +69,19 @@ const Experience: React.FC = () => {
       </section>
 
       {/* Skills & Technologies */}
-      <section className="py-20 bg-gradient-to-br from-secondary-50 to-primary-50">
+      <section className="py-20 bg-gradient-to-br from-primary-50 via-background-primary to-background-secondary dark:from-primary-900/20 dark:via-background-primary dark:to-background-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl font-bold text-dark-900 mb-4">Technologies I've Worked With</h2>
-            <p className="text-xl text-dark-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-text-primary mb-4">Technologies I've Worked With</h2>
+            <p className="text-xl text-text-secondary max-w-3xl mx-auto">
               A collection of technologies and tools I've used throughout my career
             </p>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 animate-slide-up">
+          <div className="bg-background-primary rounded-3xl shadow-xl p-8 lg:p-12 animate-slide-up">
             {/* Programming Languages */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-dark-900 mb-6 flex items-center">
+              <h3 className="text-2xl font-bold text-text-secondary mb-6 flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg mr-3"></div>
                 Programming Languages
               </h3>
@@ -96,7 +96,7 @@ const Experience: React.FC = () => {
 
             {/* Frameworks */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-dark-900 mb-6 flex items-center">
+              <h3 className="text-2xl font-bold text-text-secondary mb-6 flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg mr-3"></div>
                 Frameworks & Libraries
               </h3>
@@ -111,12 +111,12 @@ const Experience: React.FC = () => {
 
             {/* Tools & Technologies */}
             <div>
-              <h3 className="text-2xl font-bold text-dark-900 mb-6 flex items-center">
+              <h3 className="text-2xl font-bold text-text-secondary mb-6 flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg mr-3"></div>
                 Tools & Technologies
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {['MongoDB', 'Docker', 'PostgreSQL', 'Google Cloud Services', 'AWS', 'Microsoft Azure', 'GraphQL'].map((tool) => (
+                {['MongoDB', 'Docker', 'PostgreSQL', 'Google Cloud', 'AWS', 'Microsoft Azure', 'GraphQL'].map((tool) => (
                   <div key={tool} className="bg-secondary-50 rounded-xl p-4 text-center hover:bg-primary-50 transition-colors duration-300">
                     <div className="font-semibold text-dark-900">{tool}</div>
                   </div>

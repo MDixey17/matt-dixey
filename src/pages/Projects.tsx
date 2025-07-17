@@ -32,18 +32,18 @@ const Projects: React.FC = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 py-20">
+      <section className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-primary-900/20 dark:via-background-primary dark:to-background-secondary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl font-bold text-dark-900 mb-6">
+            <h1 className="text-5xl font-bold text-text-primary mb-6">
               My
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-600 ml-4">
                 Projects
               </span>
             </h1>
-            <p className="text-xl text-dark-600 max-w-3xl mx-auto leading-relaxed">
-              A collection of personal projects showcasing my passion for technology, 
-              from Formula 1 dashboards to trading card managers.
+            <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+              A collection of personal projects showcasing my passion for engineering,
+              from indie video games to trading card platforms.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
           </div>
 
           {/* Search and Filter */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 animate-slide-up" style={{ animationDelay: '0.4s' }}>
+          <div className="bg-background-primary rounded-2xl shadow-lg p-8 animate-slide-up" style={{ animationDelay: '0.4s' }}>
             <div className="flex flex-col md:flex-row gap-6">
               {/* Search */}
               <div className="flex-1">
@@ -93,12 +93,12 @@ const Projects: React.FC = () => {
                 <select
                   value={selectedFilter}
                   onChange={(e) => setSelectedFilter(e.target.value as any)}
-                  className="px-4 py-3 border border-secondary-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  className="px-4 py-3 border text-secondary-400 border-secondary-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                 >
-                  <option value="all">All Projects</option>
-                  <option value="featured">Featured</option>
-                  <option value="completed">Completed</option>
-                  <option value="in-progress">In Progress</option>
+                  <option className="text-secondary-400" value="all">All Projects</option>
+                  <option className="text-secondary-400" value="featured">Featured</option>
+                  <option className="text-secondary-400" value="completed">Completed</option>
+                  <option className="text-secondary-400" value="in-progress">In Progress</option>
                 </select>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Projects: React.FC = () => {
       </section>
 
       {/* Projects Grid */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-background-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {filteredProjects.length === 0 ? (
             <div className="text-center py-20">
@@ -137,13 +137,13 @@ const Projects: React.FC = () => {
               </div>
 
               {/* Tech Stack Overview */}
-              <div className="mt-20 bg-gradient-to-br from-secondary-50 to-primary-50 rounded-3xl p-8 lg:p-12">
-                <h2 className="text-3xl font-bold text-dark-900 mb-8 text-center">Technologies Used</h2>
+              <div className="mt-20 bg-gradient-to-br from-secondary-50 to-primary-50 dark:from-background-secondary dark:to-primary-900/20 rounded-3xl p-8 lg:p-12">
+                <h2 className="text-3xl font-bold text-text-primary mb-8 text-center">Technologies Used</h2>
                 <div className="flex flex-wrap gap-3 justify-center">
                   {allTags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-4 py-2 bg-white rounded-full text-dark-700 font-medium shadow-sm hover:shadow-md transition-shadow duration-300"
+                      className="px-4 py-2 bg-background-secondary text-text-secondary rounded-full font-medium shadow-sm hover:shadow-md transition-shadow duration-300"
                     >
                       {tag}
                     </span>
