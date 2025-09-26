@@ -109,20 +109,21 @@ export const experiences: Experience[] = [
     location: "Brooklyn Park, MN",
     description: "Contributing to ad-tech marketing solutions that drive consistent growth across the enterprise",
     achievements: [
-      "Advanced the internal React component library to support Enter key selection for type-ahead inputs, now utilized by over 1,000 teams across the enterprise, showcasing scalable frontend development",
-      "Designed and implemented an internal React web application to empower engineers with real-time visibility into marketing campaign audience creation and delivery, improving on-call response times and operational efficiency",
-        "Authored documentation comparing frontend testing libraries, such as Cypress and Playwright, enabling enterprise teams to make informed decisions about their integration testing strategies",
-        "Partnered with senior engineers to ship a time-sensitive enhancement with audience distribution to social media platforms within two weeks, resulting in $15 million in cost savings",
-        "Pioneered a Slack bot application to improve productivity for over 4,000 employees using Golang and PostgreSQL, becoming recognized across the enterprise and frequently consulted by engineers for guidance on implementation",
-        "Actively contribute to Spring Boot microservices and Kafka consumers that support the automation of creation of audience segments for the marketing portfolio, generating over $2 billion in annual revenue",
-        "Optimized existing CI/CD pipelines to create and modify Kubernetes clusters to comply with internal infrastructure guidelines and cost-effectiveness, sharing the configurations across teams to easily replicate",
-        "Spearheaded quarterly security reviews for the internal audience creation tool, resolving over 200 high severity vulnerabilities per cycle and contributing to cross-team dependency upgrade initiatives",
-        "Selected  to provide hands-on onboarding and mentorship to new hires, supporting their growth in engineering skills, company culture, and technology usage",
-        "Led the development of a Generative AI assistant for marketing workflows by reducing creation time by 40% for audience segments of guests that have purchased products from specified brands, gaining praise from leadership for setting an example for the enterprise",
-        "Initiated discovery and successful implementation of direct API integrations with major platforms such as Meta, TikTok, and Pinterest, streamlining audience segment data flows as part of a $500 million enterprise initiative",
-        "Sole owner of all frontend work for my team, regularly consulted for new features, urgent fixes, and collaborating with cross-functional stakeholders, being recognized as the frontend authority on the team"
+      "Advanced the internal React component library to support Enter key selection for type-ahead inputs, now utilized by over 1,000 teams across the enterprise, showcasing scalable frontend development.",
+      "Designed and launched an internal React web application to empower engineers with real-time visibility into marketing campaign audience creation and delivery, improving on-call response times and operational efficiency.",
+        "Authored documentation comparing frontend testing libraries, such as Cypress and Playwright, enabling enterprise teams to make informed decisions about their integration testing strategies.",
+        "Partnered with senior engineers to ship a time-sensitive enhancement with audience distribution to social media platforms within two weeks, resulting in $15 million in cost savings.",
+        "Pioneered a Slack bot application to improve productivity for over 4,000 employees using Golang and PostgreSQL, becoming recognized across the enterprise and frequently consulted by engineers for guidance on implementation.",
+        "Actively contribute to Spring Boot microservices and Kafka consumers that support the automation of creation of audience segments for the marketing portfolio, generating over $2 billion in annual revenue.",
+        "Optimized existing CI/CD pipelines to create and modify Kubernetes clusters to comply with internal infrastructure guidelines and cost-effectiveness, sharing the configurations across teams and reducing deployment time by 20%.",
+        "Spearheaded quarterly security reviews for the internal audience creation tool, resolving over 200 high severity vulnerabilities per cycle and contributing to cross-team dependency upgrade initiatives.",
+        "Selected to provide hands-on onboarding and mentorship to new hires, supporting their growth in engineering skills, company culture, and technology usage.",
+        "ed the development of a Generative AI assistant for marketing workflows by reducing audience segment creation time by 40% for guests that have purchased from specified brands, gaining praise from leadership across the enterprise.",
+        "Initiated discovery and successful implementation of direct API integrations with major platforms such as Google Ads, Meta, TikTok, and Pinterest, streamlining audience segment data flows as part of a $500 million enterprise initiative.",
+        "Sole owner of all frontend work for my team, regularly consulted for new features, urgent fixes, and collaborating with cross-functional stakeholders, being recognized as the frontend authority on the team.",
+        "Expanded Grafana dashboards for the audience creation tool to include visibility into data delivery to social platforms, microservice memory usage, and common HTTP metrics, leading to 32% latency reduction across 50 applications."
     ],
-    tags: ["React", "Node.js", "TypeScript", "Docker", "MongoDB", "PostgreSQL", "Java", "Spring Boot"]
+    tags: ["React", "Node.js", "TypeScript", "Docker", "MongoDB", "PostgreSQL", "Java", "Spring Boot", "Grafana", "Google Cloud Services"]
   },
   {
     id: "internship-2022",
@@ -160,9 +161,9 @@ export const projects: Project[] = [
     title: "Formula Cardz",
     description: "Platform for tracking Formula 1 trading card market values, upcoming releases, and found 1/1 cards",
     longDescription: "A comprehensive web application that allows user's to sign up to track their own collection, save grail cards on their wishlist, track daily market values, and discover which 1/1 cards have and have not been found by other collectors.",
-    tags: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Express", "Cronjob", "Web Scraping", "Render", "AWS"],
-    githubUrl: "https://github.com/MDixey17/formula-cardz-ui",
-    liveUrl: "https://formulacardz.com/",
+    tags: ["React", "React Native", "Expo", "TypeScript", "JavaScript", "Tailwind CSS", "Express", "Cronjob", "Web Scraping", "Render", "AWS"],
+    githubUrl: "https://github.com/MDixey17/formula-cardz-app",
+    liveUrl: "https://apps.apple.com/us/app/formula-cardz/id6749519000",
     featured: true,
     status: "completed"
   },
@@ -177,6 +178,15 @@ export const projects: Project[] = [
     status: "in-progress"
   },
   {
+    id: 'race-intel',
+    title: 'Race Intel - Formula 1 Live Strategy Predictor',
+    description: 'Determine the best strategy with real-time data using FastF1 and FastAPI',
+    longDescription: 'Use machine learning models with lap, weather, track, and tyre data to determine the best possible strategy during a grand prix.',
+    tags: ["Python", "TypeScript", "React"],
+    featured: true,
+    status: 'in-progress'
+  },
+  {
     id: "blue-titanium",
     title: "Blue Titanium Component Library",
     description: "A small component library with all the basic elements needed to construct a modern looking UI",
@@ -184,7 +194,7 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "CSS", "Storybook", "NPM", "Node.js"],
     githubUrl: "https://github.com/MDixey17/blue-titanium",
     liveUrl: "https://www.npmjs.com/package/blue-titanium-ui",
-    featured: true,
+    featured: false,
     status: "completed"
   },
   {
