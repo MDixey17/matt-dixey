@@ -1,8 +1,23 @@
-# matt-dixey
+# Matt Dixey Portfolio Website v4
 
-Code base for the 4th iteration of my portfolio website.
+The code base for the 4th iteration of my portfolio website, containing a more easily-extensible setup to add new professional experiences, skills, and projects.
 
-## Local Development
-`npm install`
+## View Project
 
-`npm run dev`
+The project can be viewed [here!](https://mdixey17.github.io/matt-dixey/#/)
+
+## 🚀 Features
+- Full portfolio setup demonstrating skill set, experiences, and projects.
+- Light and dark theme support.
+
+## 🛠️ Tech Stack
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Deployment:** GitHub Pages, GitHub Actions
+
+## 📦 Installation
+```bash
+git clone https://github.com/MDixey17/matt-dixey.git
+cd matt-dixey
+npm install
+npm run dev
+```
